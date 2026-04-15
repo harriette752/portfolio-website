@@ -102,3 +102,22 @@ button:hover {
     text-align: center;
     padding: 80px 20px;
 }
+.card {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .projects img {
+        width: 90%;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}

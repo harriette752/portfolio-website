@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+    color: #333;
+}
+
+/* NAVBAR */
+nav {
+    background: #111;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+/* PAGE CONTAINER */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* SECTIONS */
+section, p, ul {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* PROJECT GRID (FLEXBOX UPGRADE) */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px;
+}
+
+.projects img {
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.projects img:hover {
+    transform: scale(1.05);
+}
+
+/* CONTACT FORM */
+form {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    background: #111;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #00bcd4;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+}

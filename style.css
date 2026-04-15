@@ -96,3 +96,9 @@ button:hover {
         margin: 10px 0;
     }
 }
+.hero {
+    background: linear-gradient(to right, #111, #333);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
